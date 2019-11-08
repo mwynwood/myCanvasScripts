@@ -1,3 +1,5 @@
+# This script creates an HTML file with a table that has every assignment in it.
+
 from canvasapi import Canvas
 from api_key import API_URL, API_KEY
 

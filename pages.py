@@ -1,7 +1,8 @@
-from canvasapi import Canvas
+# Lists every PAGE in a course
 
-API_URL = "https://canvas.education.tas.gov.au"
-API_KEY = "9371~llK07Wa9SnYxqcluchx0oymdt9F9g1UOATShQ7TFGmUHWWvNGagNuUJsw0yqwORV"
+from canvasapi import Canvas
+from api_key import API_URL, API_KEY
+
 canvas = Canvas(API_URL, API_KEY)
 
 course = canvas.get_course(53357) # Cert II

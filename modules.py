@@ -1,3 +1,6 @@
+# Prints out every item in each module.
+# Writes it to a text file too.
+
 from canvasapi import Canvas
 from api_key import API_URL, API_KEY
 
