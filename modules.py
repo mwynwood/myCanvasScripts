@@ -1,10 +1,10 @@
 from canvasapi import Canvas
+from api_key import API_URL, API_KEY
 
-API_URL = "https://canvas.example.com"
-API_KEY = "XXX"
 canvas = Canvas(API_URL, API_KEY)
 
-course = canvas.get_course(12345)
+course = canvas.get_course(53357) # Cert II
+# course = canvas.get_course(63381) # Cert III
 
 modules = course.get_modules();
 
