@@ -5,4 +5,4 @@ api_key.py
 
 # Whoops
 pages.py
-__pycache__
+__pycache__/
