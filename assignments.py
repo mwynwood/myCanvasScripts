@@ -11,10 +11,10 @@ course = canvas.get_course(73609) # <-- Put the course ID here
 
 assignments = course.get_assignments(order_by='name') 
 
-f = open("canvas-assignments.html", "w")
+f = open("assignments.html", "w")
 f.write("<table border='1' cellpadding='5' style='border-collapse: collapse;'>")
 f.write("<h1>Assessments in " + course.name + "</h1>")
-f.write("<p><a href='#'>" + API_URL + "/courses/" + str(course.id) + "</a></p>")
+f.write("<p><a href='" + API_URL + "/courses/" + str(course.id) + "'>" + API_URL + "/courses/" + str(course.id) + "</a></p>")
 now = datetime.now()
 f.write("<p><em>Generated on " + now.strftime("%d %B %Y, %H:%M:%S") + " by <a href='https://github.com/mwynwood/myCanvasScripts/blob/master/assignments.py'>assignments.py</a></em></p>")
 
