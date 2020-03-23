@@ -3,6 +3,7 @@
 # API_KEY = "Your API key"
 api_key.py
 
-# Whoops
+# Other Stuff to Ignore
 pages.py
 __pycache__/
+*.html
